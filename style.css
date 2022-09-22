@@ -1,0 +1,41 @@
+h1{
+    font-size: 100px;
+    color:white;
+  
+}
+
+h2{
+    font-size: 20px;
+    color: #0000ff;
+}
+
+h3{
+    font-size: 16px;
+    color: teal;
+}
+
+p{
+    color:#4D4D4D ;
+    
+}
+
+a{
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+.p1{
+    font-size: 50px;
+    color: white;
+}
+
+.p1,h1{
+    background-image:url(https://www.savebutonu.com/wp-content/uploads/2020/10/resim_2020-10-24_192734.png);
+    background-size: cover;
+}
+
+article{
+    border: 2px solid blue;
+    border-radius: 12px;
+    padding: 5px;
+}
