@@ -1,0 +1,83 @@
+nav{
+    color: white;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.div1{
+    color: black;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+    height: 35vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.div2{
+color: black;
+background-color: orange;
+margin: 0;
+padding: 0;
+height: 35vh;
+width: 100%;
+overflow: hidden;
+}
+
+.div3{
+    color: black;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    height: 35vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 576px) {
+    .logo{
+        background-color: rgb(76, 76, 177);
+    }
+
+    .div1{
+        background-color: aqua;
+        color: white;
+    }
+    
+    .div2{
+    background-color: purple;
+    color: white;
+    }
+
+    .div3{
+        background-color: darkblue;
+        color: white;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .logo{
+        background-color: rgb(225, 97, 118);
+    }
+
+    .div1{
+        background-color: rgb(225, 44, 44);
+        color: white;
+    }
+
+    .div2{
+        background-color: rgb(68, 68, 230);
+        color: white;
+    }
+
+    .div3{
+        background-color: darkblue;
+        color: white;
+    }
+}
