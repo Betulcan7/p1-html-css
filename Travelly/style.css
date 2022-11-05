@@ -1,0 +1,185 @@
+
+ul {
+    list-style-type: none;
+    margin: -1rem;
+    padding: 0;
+    overflow: hidden;
+    background-color: #131c27;
+    margin-top: 1;
+    width: 205vh;
+    height: 80px;
+  }
+  
+  li {
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 1vh;
+    font-family: 'Pattaya', sans-serif;
+  }
+
+  .div1{
+    background-image: url('/Travelly/img travelly/landing-page.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color: white;
+    width: 205vh;
+    height: 80vh;
+    margin: -2vh;
+    padding: 1rem;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  .div1 button{
+    color: white;
+    background-color: #4c6e97;
+    font-size: 15px;
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+.div1 h1{
+  font-size: 40px;
+}
+.div1 h3{
+  font-size: 20px;
+}
+
+.div2{
+  background-image: url('/Travelly/img travelly/skyline.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  color: white;
+  width: 205vh;
+  height: 80vh;
+  margin: -2vh;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 160px;
+}
+
+ .div2 h1{
+  display: inline;
+  border-bottom: 2px solid white;
+  margin: 3rem;
+  font-size: 40px;
+ }
+
+ .div2 h3{
+  margin: 3rem;
+  font-size: 20px;
+ }
+
+  .div3{
+    background-color: #131c27;
+    color: white;
+    margin: -1rem;
+    width: 205vh;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .card{
+    background-color: white;
+    width: 270px;
+    height: 400px;
+    margin: 30px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .card-image{
+    background-color: black;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  section p{
+    font-size: 15px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+  .section{
+    background-image: url('/Travelly/img travelly/contact-mountain.jpg');
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+  .cont{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 100px;
+    box-shadow: 0px 0px 20px;
+    background-color: black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .button2{
+background-color: #4c6e97;
+width: 170px;
+padding: 10px;
+margin-top: 30px;
+  }
+
+  .form-group{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+.div5{
+  background-color: #131c27;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  }
